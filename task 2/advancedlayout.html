@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch.it - Movie Streaming</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="advancedlayout.css">
+
+</head>
+
+<body>
+    <div class="header"> <!-- Container for the header section -->
+        <h1>watch.it</h1> <!-- Main title of the site -->
+        <div class="nav"> <!-- Navigation bar for movie categories -->
+            <a href="#">Action</a> <!-- Link for the Action movie category -->
+            <a href="#">Comedy</a> <!-- Link for the Comedy movie category -->
+            <a href="#">Romance</a> <!-- Link for the Romance movie category -->
+            <a href="#">Drama</a> <!-- Link for the Drama movie category -->
+        </div>
+        <button class="search">SEARCH</button> <!-- A button for triggering search functionality -->
+    </div>
+
+
+    <main> <!-- Main content area of the page -->
+        <div class="whole-card"> <!-- Wrapper div for all the movie cards -->
+            <div class="container"> <!-- Container for organizing the layout -->
+
+                <!-- Row 1: Single Movie Card with Button on Right Side -->
+                <div class="row first-row-layout"> <!-- First row for a single movie card -->
+                    <div class="movie-card"> <!-- Container for a single movie card -->
+                        <img src="Images/barbie.jpg" alt="hidden-figures" class="movie-poster"> <!-- Image of the movie poster -->
+                        <div class="movie-card-content"> <!-- Content container for movie details -->
+                            <div class="movie-description"> <!-- Section displaying the movie description -->
+                                <div class="movie-title">Barbie (2023)</div> <!-- Title of the movie -->
+                                Step into the dazzling world of Barbie as she embarks on an
+                                unexpected journey from her perfect doll life to the real world. Filled with humor, heart,
+                                and empowering messages, this vibrant adventure redefines what it means to dream big! <!-- Description of the movie -->
+                            </div>
+                            <button class="watch-now">Watch Now</button> <!-- Button to trigger the "Watch Now" action -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Two Movies Side by Side -->
+                <div class="row two-card-row"> <!-- Second row for displaying two movie cards side by side -->
+                    <div class="movie-card"> <!-- First movie card -->
+                        <img src="Images/hidden-figures.jpg" alt="Barbie" class="movie-poster"> <!-- Movie poster image -->
+                        <div class="movie-title"></div> <!-- Movie title -->
+                        <div class="movie-description">Three unsung heroes of NASA's space race take the spotlight in this inspiring true
+                            story. Battling discrimination and defying the odds, these brilliant African-American
+                            women prove that intelligence, perseverance, and unity can change history and break
+                            barriers.<!-- Movie description -->
+                        </div>
+                        <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                    </div>
+                    <div class="movie-card"> <!-- Second movie card -->
+                        <img src="Images/who-framed-roger-rabbit.jpg" alt="Who Framed Roger Rabbit" class="movie-poster"> <!-- Movie poster image -->
+                        <div class="movie-title">Who Framed Roger Rabbit (1988)</div> <!-- Movie title -->
+                        <div class="movie-description">In a world where cartoons and humans coexist, a detective must
+                            solve a zany, high-stakes mystery. Packed with wild humor, groundbreaking animation, and
+                            noir twists, this unique film will pull you into a world where anything is possible! <!-- Movie description -->
+                        </div>
+                        <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                    </div>
+                </div>
+                <!-- Row 3: Single Movie Card (Horizontal Layout) -->
+                <div class="row three-card-row"> <!-- Third row for displaying a single movie card in horizontal layout -->
+                    <div class="row ">
+                        <div class="movie-card horizontal-layout"> <!-- Movie card in horizontal layout -->
+                            <img src="Images/hook.jpg" alt="Hook" class="movie-poster"> <!-- Movie poster -->
+                            <div class="text-content"> <!-- Container for text content -->
+                                <div class="movie-title">Hook (1991)</div> <!-- Movie title -->
+                                <div class="movie-description">Rediscover Neverland in this thrilling twist on Peter
+                                    Pan! Robin Williams stars as a grown-up Peter, who must rediscover his inner child
+                                    to rescue his kids from the clutches of the evil Captain Hook! <!-- Movie description -->
+                                </div>
+                                <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 4: Single Movie Card -->
+                    <div class="row"> <!-- Fourth row for another single movie card -->
+                        <div class="movie-card horizontal-layout"> <!-- Movie card in horizontal layout -->
+                            <img src="Images/palm-springs.jpg" alt="La La Land" class="movie-poster"> <!-- Movie poster -->
+                            <div class="text-content"> <!-- Container for text content -->
+                                <div class="movie-title">Palm Springs (2020)</div> <!-- Movie title -->
+                                <div class="movie-description">A never-ending wedding day turns into an unforgettable
+                                    time-loop romance! Stuck in the same day, two strangers find love, chaos, and
+                                    meaning in the most unexpected ways. <!-- Movie description -->
+                                </div>
+                                <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 5: Single Movie Card (Horizontal Layout) -->
+                <div class="row four-card-row"> <!-- Fifth row for displaying a movie card in horizontal layout -->
+                    <div class="row">
+                        <div class="movie-card horizontal-layout"> <!-- Movie card in horizontal layout -->
+                            <img src="Images/la-la-land.jpg" alt="Palm Springs" class="movie-poster"> <!-- Movie poster -->
+                            <div class="text-content"> <!-- Container for text content -->
+                                <div class="movie-title">La La Land (2016)</div> <!-- Movie title -->
+                                <div class="movie-description">Love, dreams, and the magic of LA take center stage in
+                                    this musical masterpiece. Watch as two starry-eyed artists navigate passion and
+                                    ambition in a world where every moment feels like a cinematic spectacle!  <!-- Movie description -->
+                                </div>
+                                <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-card"> <!-- Last card for another movie -->
+                        <div class="movie-card"> <!-- Movie card container -->
+                            <img src="Images/hidden-figures.jpg" alt="hidden-figures" class="movie-poster"> <!-- Movie poster -->
+                            <div class="movie-title">Hidden Figures (2016)</div> <!-- Movie title -->
+                            <div class="movie-description">Three unsung heroes of NASA's space race take the spotlight
+                                in this inspiring true story. Battling discrimination and defying the odds, these
+                                brilliant African-American women prove that intelligence, perseverance, and unity can
+                                change history and break barriers. <!-- Movie description -->
+                            </div>
+                            <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-card"> <!-- Tabbed movie cards container -->
+            <div class="row two-card-row"> <!-- Row displaying two movie cards side by side -->
+                <div class="movie-card"> <!-- Movie card for Hidden Figures -->
+                    <img src="Images/hidden-figures.jpg" alt="hidden hidden-figures" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">Hidden Figures (2016)</div> <!-- Movie title -->
+                    <div class="movie-description">Three unsung heroes of NASA's space race take the spotlight in this
+                        inspiring true story. Battling discrimination and defying the odds, these brilliant
+                        African-American women prove that intelligence, perseverance, and unity can change history and
+                        break barriers. <!-- Movie description -->
+                    </div>
+                    <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+                <div class="movie-card"> <!-- Movie card for Palm Springs -->
+                    <img src="Images/palm-springs.jpg" alt="palm-springs" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">Barbie (2023)</div> <!-- Movie title -->
+                    <div class="movie-description">Step into the dazzling world of Barbie as she embarks on an
+                        unexpected journey from her perfect doll life to the real world. Filled with humor, heart, and
+                        empowering messages, this vibrant adventure redefines what it means to dream big! <!-- Movie description -->
+                    </div>
+                    <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+            </div>
+            <div class="row two-card-row"> <!-- Row displaying two movie cards side by side -->
+                <div class="movie-card"> <!-- Movie card for Barbie -->
+                    <img src="Images/barbie.jpg" alt="Barbie" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">Who Framed Roger Rabbit (1988)</div> <!-- Movie title -->
+                    <div class="movie-description">In a world where cartoons and humans coexist, a detective must solve
+                        a zany, high-stakes mystery. Packed with wild humor, groundbreaking animation, and noir twists,
+                        this unique film will pull you into a world where anything is possible! <!-- Movie description -->
+                    </div>
+                    <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+                <div class="movie-card"> <!-- Movie card for Hook -->
+                    <img src="Images/hook.jpg" alt="Hook" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">Hook (1991)</div> <!-- Movie title -->
+                    <div class="movie-description">Rediscover Neverland in this thrilling twist on Peter Pan! Robin
+                        Williams stars as a grown-up Peter, who must rediscover his inner child to rescue his kids from
+                        the clutches of the evil Captain Hook! <!-- Movie description -->
+                    </div>
+                    <button class="watch-now" id="watch-move">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+            </div>
+            <div class="row two-card-row"> <!-- Row displaying two movie cards side by side -->
+                <div class="movie-card"> <!-- Movie card for La La Land -->
+                    <img src="Images/la-la-land.jpg" alt="La La Land" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">La La Land (2016)</div> <!-- Movie title -->
+                    <div class="movie-description">Love, dreams, and the magic of LA take center stage in this musical
+                        masterpiece. Watch as two starry-eyed artists navigate passion and ambition in a world where
+                        every moment feels like a cinematic spectacle! <!-- Movie description -->
+                    </div>
+                    <button class="watch-now">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+                <div class="movie-card"> <!-- Movie card for Palm Springs -->
+                    <img src="Images/palm-springs.jpg" alt="Palm Springs (2020)" class="movie-poster"> <!-- Movie poster -->
+                    <div class="movie-title">Palm Springs (2020)</div> <!-- Movie title -->
+                    <div class="movie-description">A never-ending wedding day turns into an unforgettable time-loop
+                        romance! Stuck in the same day, two strangers find love, chaos, and meaning in the most
+                        unexpected ways. <!-- Movie description -->
+                    </div>
+                    <button class="watch-now" id="watch-move">Watch Now</button> <!-- Watch Now button for this movie -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
